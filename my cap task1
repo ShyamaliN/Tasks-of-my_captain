@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main() 
+
+{
+	// printing the storage size of datatypes in bytes
+	cout<<"\nthe storage size of int:"  <<sizeof(int)   
+	<<"bytes";
+	cout<<"\nthe storage size of char:"  <<sizeof(char)
+	<<"byte";
+	 cout<<"\nthe storage size of float:"  <<sizeof(float)   
+	<<"bytes";
+	cout<<"\nthe storage size of double:"  <<sizeof(double)
+	<<"bytes";
+	return 0;
+}
