@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main ()
+//taking the inputs from user 
+     
+	 {
+	     cout<<"Enter the two numbers:";
+	     float x,y,z;
+	     cin>>x>>y;
+	      z=x*y ;
+	     cout<<"product = "<<z;
+	 return 0;
+}
